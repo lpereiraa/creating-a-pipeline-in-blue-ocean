@@ -22,5 +22,11 @@ pipeline {
       }
     }
 
+    stage('test1') {
+      steps {
+        mail(subject: 'dsfa', body: 'sdfasd')
+      }
+    }
+
   }
 }
